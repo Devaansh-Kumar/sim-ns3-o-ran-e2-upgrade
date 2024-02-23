@@ -499,7 +499,7 @@ MeasurementItemList::GetItems ()
 OCTET_STRING_t
 MeasurementItemList::GetId ()
 {
-  NS_ABORT_IF (m_id == NULL);
+  NS_ABORT_IF (!m_id);
   return m_id->GetValue ();
 }
 
