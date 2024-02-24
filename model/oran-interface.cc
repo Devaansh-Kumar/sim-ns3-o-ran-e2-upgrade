@@ -30,10 +30,10 @@
 #include "encode_e2apv1.hpp"
 
 extern "C" {
-  #include "RICsubscriptionRequest.h"
-  #include "RICactionType.h"
-  #include "ProtocolIE-Field.h"
-  #include "InitiatingMessage.h"
+  #include "e2sim/RICsubscriptionRequest.h"
+  #include "e2sim/RICactionType.h"
+  #include "e2sim/ProtocolIE-Field.h"
+  #include "e2sim/InitiatingMessage.h"
 }
 
 namespace ns3 {

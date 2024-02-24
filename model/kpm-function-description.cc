@@ -27,8 +27,8 @@
 #include <ns3/log.h>
 
 extern "C" {
-#include "RIC-EventTriggerStyle-Item.h"
-#include "RIC-ReportStyle-Item.h"
+#include "e2sim/RIC-EventTriggerStyle-Item.h"
+#include "e2sim/RIC-ReportStyle-Item.h"
 }
 
 namespace ns3 {

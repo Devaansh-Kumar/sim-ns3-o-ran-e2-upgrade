@@ -29,7 +29,7 @@
 #include "ns3/object.h"
 
 extern "C" {
-  #include "E2SM-RC-RANFunctionDefinition.h"
+  #include "e2sim/E2SM-RC-RANFunctionDefinition.h"
 }
 
 namespace ns3 {

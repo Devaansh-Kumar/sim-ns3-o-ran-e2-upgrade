@@ -30,7 +30,7 @@
 #include <ns3/kpm-function-description.h>
 #include <ns3/ric-control-function-description.h>
 #include <ns3/ric-control-message.h>
-#include "e2sim.hpp"
+#include "e2sim/e2sim.hpp"
 
 namespace ns3 {
   

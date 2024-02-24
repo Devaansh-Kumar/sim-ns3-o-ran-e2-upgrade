@@ -29,15 +29,15 @@
 #include <set>
 
 extern "C" {
-  #include "E2SM-KPM-RANfunction-Description.h"
-  #include "E2SM-KPM-IndicationHeader.h"
-  #include "E2SM-KPM-IndicationMessage.h"
-  #include "RAN-Container.h"
-  #include "PF-Container.h"
-  #include "OCUUP-PF-Container.h"
-  #include "OCUCP-PF-Container.h"
-  #include "ODU-PF-Container.h"
-  #include "PF-ContainerListItem.h"
+  #include "e2sim/E2SM-KPM-RANfunction-Description.h"
+  #include "e2sim/E2SM-KPM-IndicationHeader.h"
+  #include "e2sim/E2SM-KPM-IndicationMessage.h"
+  #include "e2sim/RAN-Container.h"
+  #include "e2sim/PF-Container.h"
+  #include "e2sim/OCUUP-PF-Container.h"
+  #include "e2sim/OCUCP-PF-Container.h"
+  #include "e2sim/ODU-PF-Container.h"
+  #include "e2sim/PF-ContainerListItem.h"
   #include "asn1c-types.h"
 }
 

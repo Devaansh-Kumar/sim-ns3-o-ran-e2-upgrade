@@ -4,18 +4,14 @@ link_libraries(e2sim)
 
 find_external_library(
     DEPENDENCY_NAME e2sim
-    HEADER_NAMES e2sim.h
+    HEADER_NAMES e2sim.hpp
     LIBRARY_NAME e2sim
-    SEARCH_PATHS /usr/local/include
+    SEARCH_PATHS /usr/local/include/
 )
 
 if(${e2sim_FOUND})
     include_directories(${e2sim_INCLUDE_DIRS})
     link_libraries(${e2sim_LIBRARIES})
-    build_lib(
-    LIBNAME e2sim
-    LIBRARIES_TO_LINK ${e2sim_LIBRARIES}
-)
 endif()
 
 build_lib(
@@ -46,7 +42,7 @@ build_lib(
         helper/mmwave-indication-message-helper.h
     LIBRARIES_TO_LINK 
         ${libcore}
-        ${libe2sim}
+        ${e2sim_LIBRARIES}
     TEST_SOURCES
         test/oran-interface-test-suite.cc
 )

@@ -29,16 +29,16 @@
 #include <ns3/asn1c-types.h>
 
 extern "C" {
-  #include "E2AP-PDU.h"
-  #include "E2SM-RC-ControlHeader.h"
-  #include "E2SM-RC-ControlMessage.h"
-  #include "E2SM-RC-ControlHeader-Format1.h"
-  #include "E2SM-RC-ControlMessage-Format1.h"
-  #include "RICcontrolRequest.h"
-  #include "ProtocolIE-Field.h"
-  #include "InitiatingMessage.h"
-  #include "CellGlobalID.h"
-  #include "NRCGI.h"
+  #include "e2sim/E2AP-PDU.h"
+  #include "e2sim/E2SM-RC-ControlHeader.h"
+  #include "e2sim/E2SM-RC-ControlMessage.h"
+  #include "e2sim/E2SM-RC-ControlHeader-Format1.h"
+  #include "e2sim/E2SM-RC-ControlMessage-Format1.h"
+  #include "e2sim/RICcontrolRequest.h"
+  #include "e2sim/ProtocolIE-Field.h"
+  #include "e2sim/InitiatingMessage.h"
+  #include "e2sim/CellGlobalID.h"
+  #include "e2sim/NRCGI.h"
  }
 
 namespace ns3 {

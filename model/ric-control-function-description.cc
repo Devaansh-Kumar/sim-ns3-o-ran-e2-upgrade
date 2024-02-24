@@ -27,9 +27,9 @@
 #include <ns3/log.h>
 
 extern "C" {  
-  #include "RIC-ControlStyle-Item.h"
-  #include "RIC-ControlAction-Item.h"
-  #include "RAN-ControlParameter-Item.h"
+  #include "e2sim/RIC-ControlStyle-Item.h"
+  #include "e2sim/RIC-ControlAction-Item.h"
+  #include "e2sim/RAN-ControlParameter-Item.h"
 }
 
 namespace ns3 {
